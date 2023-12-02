@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array and Object in javascript</title>
+    <script>
+     const marks = [34,55,78,75,45];
+     document.write(marks +"<br><br>");
+
+     const fruits =["orange,Banana,Apple,Mango"];
+     document.write(fruits +"<br><br>");
+
+     const mixed =['Manish',67,[9,7]]; 
+     document.write(mixed +"<br><br>");
+
+     const arry = new Array(45,67,"Manni",60);
+      document.write(arry +"<br><br>");
+
+      document.write(arry.length + "<br>");     //length proprities
+
+      document.write(Array.isArray(arry) + "<br>");     //isArray method
+
+      arry[0]= 'Manish';
+      document.write(arry + "<br>");    //changing the value of array
+
+      let value = marks.indexOf(34);   //search the array for the specied item
+      document.write(value + "<br>");
+
+     marks.push(67);
+     document.write(marks + "<br>");  //add a new element to an array ayt the end
+
+     marks.unshift(56);              //add a new elelment to an array at the begning
+     document.write(marks + "<br>"); 
+
+     marks.pop() 
+     document.write(marks + "<br>"); //remove the  last elelment from an array
+
+    marks.shift()
+    document.write(marks + "<br>"); //remove the first array element
+
+   marks.splice(1,2);
+   document.write(marks + "<br>"); //
+
+   marks.reverse();
+   document.write(marks + "<br>");   //reverse the element of array
+
+   
+
+
+   //OBJECTs -:
+
+   let myobj = {
+       name : "Manish",
+       Add : "Amara Talab",
+       email :"manishkeshri1710@gmail.com",
+       Mob_no : 7739790855,
+       marks:[1,2,3,45,6]
+   }
+   document.write(myobj.name);
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
